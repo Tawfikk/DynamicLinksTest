@@ -1,0 +1,6 @@
+framework module Pods_FDLTestingApp {
+  umbrella header "Pods-FDLTestingApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
