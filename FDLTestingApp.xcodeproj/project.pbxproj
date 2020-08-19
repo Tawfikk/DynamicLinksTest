@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0745B7BA5FB928F5D756375F /* Pods_FDLTestingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD98A8403533198E75D4D2CB /* Pods_FDLTestingApp.framework */; };
+		5D9CFB9324ED6CED00F1E91F /* SceneDelegateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9CFB9224ED6CED00F1E91F /* SceneDelegateClass.swift */; };
 		5DEB2E1C24E550F5000FCBB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB2E1B24E550F5000FCBB9 /* AppDelegate.swift */; };
 		5DEB2E2024E550F5000FCBB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB2E1F24E550F5000FCBB9 /* ViewController.swift */; };
 		5DEB2E2324E550F5000FCBB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DEB2E2124E550F5000FCBB9 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D9CFB9224ED6CED00F1E91F /* SceneDelegateClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateClass.swift; sourceTree = "<group>"; };
 		5DB5845424E573E400D64F09 /* FDLTestingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FDLTestingApp.entitlements; sourceTree = "<group>"; };
 		5DEB2E1824E550F5000FCBB9 /* Tooba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tooba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEB2E1B24E550F5000FCBB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				5DB5845424E573E400D64F09 /* FDLTestingApp.entitlements */,
 				5DEB2E1B24E550F5000FCBB9 /* AppDelegate.swift */,
+				5D9CFB9224ED6CED00F1E91F /* SceneDelegateClass.swift */,
 				5DEB2E1F24E550F5000FCBB9 /* ViewController.swift */,
 				5DEB2E2124E550F5000FCBB9 /* Main.storyboard */,
 				5DEB2E2424E550F6000FCBB9 /* Assets.xcassets */,
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D9CFB9324ED6CED00F1E91F /* SceneDelegateClass.swift in Sources */,
 				5DEB2E2024E550F5000FCBB9 /* ViewController.swift in Sources */,
 				5DEB2E1C24E550F5000FCBB9 /* AppDelegate.swift in Sources */,
 			);
